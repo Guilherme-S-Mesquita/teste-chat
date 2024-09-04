@@ -1,6 +1,7 @@
+
 <?php
 
-
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MensagensController;
 
 Route::post('/broadcast', [MensagensController::class, 'broadcast']);
